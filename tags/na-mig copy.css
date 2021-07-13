@@ -1,0 +1,153 @@
+/*HÄR BÖRJAR SJÄLVA HEMSIDAN*/
+
+menu {
+    font-weight: lighter;
+	text-align: center;
+	line-height: 14px;
+	padding-bottom:100px;
+}
+
+.ellen {
+    text-decoration: none;
+}
+
+.ellen h1 {
+    color:lightgrey;
+    size: 30px;
+}
+
+.ellen h2 {
+    color: lightgrey;
+	size: 20px;
+}
+
+:root{
+	--main-radius:1px;
+	--main-padding:1px;
+  }
+	
+.container {
+	display:grid;
+	height:100vh;
+	grid-template-columns:1fr 1fr 1fr 1fr;
+	grid-template-rows: 0.1fr 0.1fr 0.1fr;
+	grid-template-areas:
+	  "content1 tom1 tom2 tom3"
+	  "content2 content3 content4 content5"
+	  "tom4 content6 content7 content8";
+	grid-gap:0.2rem;
+	border-radius:var(--main-radius);
+	padding-top:var(--main-padding);
+	text-align:center;
+	margin:0% 20% 0% 20%;
+  }
+
+.container img{
+	height:80px;
+	width:80px;
+	border-radius:50%;
+  }
+  
+  #tom1 {
+	grid-area:tom1;
+	 border-radius:var(--main-radius);
+	  padding-top:var(--main-padding);
+  }
+  
+  #tom2 {
+	grid-area:tom2;
+	 border-radius:var(--main-radius);
+	  padding-top:var(--main-padding);
+  }
+  
+  #tom3 {
+	grid-area:tom3;
+	 border-radius:var(--main-radius);
+	  padding-top:var(--main-padding);
+  }
+  
+  #tom4 {
+	grid-area:tom4;
+	border-radius:var(--main-radius);
+	padding-top:var(--main-padding);
+  }
+  
+  #content1 {
+	grid-area:content1;
+	border-radius:var(--main-radius);
+	padding-top:var(--main-padding);
+  }
+  #content2 {
+	grid-area:content2;
+	border-radius:var(--main-radius);
+	padding-top:var(--main-padding);
+  }
+  #content3 {
+	grid-area:content3;
+	border-radius:var(--main-radius);
+	padding-top:var(--main-padding);
+  }
+  #content4 {
+	grid-area:content4;
+	border-radius:var(--main-radius);
+	padding-top:var(--main-padding);
+  }
+  #content5 {
+	grid-area:content5;
+	border-radius:var(--main-radius);
+	padding-top:var(--main-padding);
+  }
+  #content6 {
+	grid-area:content6;
+	border-radius:var(--main-radius);
+	padding-top:var(--main-padding);
+  }
+  #content7 {
+	grid-area:content7;
+	border-radius:var(--main-radius);
+	padding-top:var(--main-padding);
+  }
+  #content8 {
+	grid-area:content8;
+	border-radius:var(--main-radius);
+	padding-top:var(--main-padding);
+  }
+  
+  @media only screen and (max-width:550px) {
+	.container {
+	 margin:0% 20% 0% 30%;
+	  grid-template-columns:1fr;
+	  grid-template-rows:0.4fr 0.4fr 0.4fr 0.4fr 0.4fr 0.4fr 0.4fr 0.4fr 0.4fr;
+	  grid-template-areas:
+		"content1"
+		"content2"
+		"content3"
+		"content6"
+		"content4"
+		"content7"
+		"content5"
+		"content8";
+	}
+	img#kaffe {
+		visibility: hidden;
+	}
+  }
+  
+  a {
+    text-decoration: none;
+    color:black;
+  }
+
+  h3 {
+      font-size: 20px;
+      font-style: italic;
+  }
+
+  h4 {
+      font-size: 15px;
+      font-weight: lighter;
+      font-style: italic;
+      text-decoration: none;
+  }
+
+
