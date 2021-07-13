@@ -1,0 +1,569 @@
+/*HÄR BÖRJAR SJÄLVA HEMSIDAN*/
+
+menu {
+    font-weight: lighter;
+	text-align: center;
+	line-height: 14px;
+	padding-bottom:30px;
+}
+
+.ellen {
+    text-decoration: none;
+}
+
+.ellen h1 {
+    color:lightgrey;
+    size: 30px;
+}
+
+.ellen h2 {
+    color: lightgrey;
+	size: 20px;
+}
+
+:root{
+	--main-radius:2px;
+	--main-padding:2px;
+  }
+	
+.container1 {
+	display:grid;
+	height:72vh;
+	grid-template-columns:1fr 1fr;
+	grid-template-rows: 1fr;
+	grid-template-areas:
+	  "cobild cotext";
+	grid-gap:0.5rem;
+	border-radius:var(--main-radius);
+	padding-top:var(--main-padding);
+	text-align:left;
+	margin:0% 10% 0% 10%;
+  }
+
+	#cotext {
+		grid-area:cotext;
+		border-radius:var(--main-radius);
+		padding-top:var(--main-padding);
+	}
+	
+	#cobild {
+		grid-area:cobild;
+		border-radius:var(--main-radius);
+		padding-top:var(--main-padding);
+	}
+
+	#cobild img {
+		width:700px;
+	}
+
+.container2 {
+	display:grid;
+	height:90vh;
+	grid-template-columns:1fr 1fr;
+	grid-template-rows:1fr 1fr;
+	grid-template-areas:
+	  "icatext icabild"
+	  "icafilm1 icafilm2";
+	grid-gap:0.5rem;
+	border-radius:var(--main-radius);
+	padding-top:var(--main-padding);
+	text-align:left;
+	margin:10% 10% 0% 10%;
+  }
+
+  #icatext {
+	grid-area:icatext;
+	border-radius:var(--main-radius);
+	padding-top:var(--main-padding);
+  }
+  
+  #icafilm1 {
+	grid-area:icafilm1;
+	border-radius:var(--main-radius);
+	padding-top:var(--main-padding);
+  }
+  
+  #icafilm2 {
+	grid-area:icafilm2;
+	border-radius:var(--main-radius);
+	padding-top:var(--main-padding);
+  }
+
+  #icabild {
+	grid-area:icabild;
+	border-radius:var(--main-radius);
+	padding-top:var(--main-padding);
+  }
+
+  #icabild img {
+	  width:100%;
+  }
+
+.container3 {
+	display:grid;
+	height:90vh;
+	grid-template-columns:1fr 1fr 1fr;
+	grid-template-rows:1fr;
+	grid-template-areas:
+	  "frooshtext frooshbild1 frooshbild2";
+	grid-gap:0.5rem;
+	border-radius:var(--main-radius);
+	padding-top:var(--main-padding);
+	text-align:left;
+	margin:10% 10% 0% 10%;
+  }
+
+  #frooshtext {
+	grid-area:frooshtext;
+	border-radius:var(--main-radius);
+	padding-top:var(--main-padding);
+  }
+
+  #frooshbild1 {
+	grid-area:frooshbild1;
+	border-radius:var(--main-radius);
+	padding-top:var(--main-padding);
+  }
+
+  #frooshbild1 img {
+	  width:400px;
+  }
+
+  #frooshbild2 {
+	grid-area:frooshbild2;
+	border-radius:var(--main-radius);
+	padding-top:var(--main-padding);
+  }
+
+  #frooshbild2 img {
+	width:400px;
+}
+
+.container4 {
+	display:grid;
+	height:90vh;
+	grid-template-columns:1fr 1fr;
+	grid-template-rows:1fr 1fr;
+	grid-template-areas:
+	  "adidastext1 adidasfilm"
+	  "adidasbild adidastext2";
+	grid-gap:0.5rem;
+	border-radius:var(--main-radius);
+	padding-top:var(--main-padding);
+	text-align:left;
+	margin:10% 10% 0% 10%;
+}
+
+  #adidastext1 {
+	grid-area:adidastext1;
+	border-radius:var(--main-radius);
+	padding-top:var(--main-padding);
+  }
+
+  #adidasfilm {
+	grid-area:adidasfilm;
+	border-radius:var(--main-radius);
+	padding-top:var(--main-padding);
+  }
+
+  #adidasbild {
+	grid-area:adidasbild;
+	border-radius:var(--main-radius);
+	padding-top:var(--main-padding);
+  }
+
+  #adidasbild img {
+	  width: 500px;
+  }
+
+  #adidastext2 {
+	grid-area:adidastext2;
+	border-radius:var(--main-radius);
+	padding-top:20%;
+  }
+
+.container5 {
+	display:grid;
+	height:90vh;
+	grid-template-columns:1fr 1fr;
+	grid-template-rows:1fr 1fr;
+	grid-template-areas:
+	"aftext afbild3"
+	"afbild1 afbild2";
+	grid-gap:0.5rem;
+	border-radius:var(--main-radius);
+	padding-top:var(--main-padding);
+	text-align:left;
+	margin:10% 5% 40% 10%;
+}
+
+	#aftext {
+	grid-area:aftext;
+	border-radius:var(--main-radius);
+	padding-top:var(--main-padding);
+	}
+
+	#afbild1 {
+	grid-area:afbild1;
+	border-radius:var(--main-radius);
+	padding-top:var(--main-padding);
+	}	
+
+	#afbild1 img {
+		width:400px;
+	}
+
+	#afbild2 {
+	grid-area:afbild2;
+	border-radius:var(--main-radius);
+	}
+
+	#afbild2 img {
+		width:400px;
+	}
+
+	#afbild3 {
+	grid-area:afbild3;
+	border-radius:var(--main-radius);
+	}
+
+	#afbild3 img {
+		width:400px;
+	}
+
+	#afbild4 {
+	grid-area:afbild4;
+	border-radius:var(--main-radius);
+	padding-top:20%;
+	}
+
+	#afbild4 img {
+		width:400px;
+	}
+
+.container6 {
+	display:grid;
+	height:90vh;
+	grid-template-columns:1fr 1fr;
+	grid-template-rows:1fr 1fr;
+	grid-template-areas:
+	  "grammarlytext grammarlyfilm"
+	  "grammarlybild1 grammarlybild2";
+	grid-gap:0.5rem;
+	border-radius:var(--main-radius);
+	padding-top:var(--main-padding);
+	text-align:left;
+	margin:5% 10% 0% 10%;
+}
+  #grammarlytext {
+	grid-area:grammarlytext;
+	border-radius:var(--main-radius);
+	padding-top:var(--main-padding);
+  }
+
+  #grammarlyfilm{
+	grid-area:grammarlyfilm;
+	border-radius:var(--main-radius);
+	padding-top:var(--main-padding);
+  }
+
+  #grammarlybild1{
+	grid-area:grammarlybild1;
+	border-radius:var(--main-radius);
+	padding-top:var(--main-padding);
+  }
+
+  #grammarlybild1 img {
+	  width:500px;
+  }
+
+  #grammarlybild2{
+	grid-area:grammarlybild2;
+	border-radius:var(--main-radius);
+	padding-top:var(--main-padding);
+  }
+  #grammarlybild2 img {
+	width:500px;
+}
+ 
+	@media only screen and (max-width:550px) {
+		.container1 {
+		text-align:center;
+		height: 78vh;
+		margin: 0% 5% 0% 5%;
+		grid-template-columns:1fr;
+		grid-template-rows:1fr 1fr;
+		grid-template-areas:
+		"cotext"
+		"cobild";
+		}
+
+			#cobild img {
+				width:450px;
+			}
+
+		.container2 {
+		text-align:center;
+		height: 100vh;
+		margin: 0% 5% 0% 5%;
+		grid-template-columns:1fr;
+		grid-template-rows:1fr 1fr 1fr 1fr;
+		grid-template-areas:
+		"icatext"
+		"icabild"
+		"icafilm1"
+		"icafilm2";
+		}
+
+			#icafilm2, #icafilm1 {
+				width:450px;
+				height:252px;
+			}
+
+			#icabild img {
+				width:450px;
+			}
+
+		.container3 {
+		text-align:center;
+		height: 100vh;
+		margin: 60% 5% 0% 5%;
+		grid-template-columns:1fr;
+		grid-template-rows:1fr 1fr 1fr;
+		grid-template-areas:
+		"frooshtext"
+		"frooshbild1"
+		"frooshbild2";
+		}
+
+			#frooshbild1 img {
+				width:450px;
+			}
+			
+			#frooshbild2 img {
+				width:450px;
+			}
+					
+		.container4 {
+		text-align:center;
+		height: 100vh;
+		margin: 180% 5% 2% 5%;
+		grid-template-columns:1fr;
+		grid-template-rows:1fr 1fr 1fr;
+		grid-template-areas:
+		"adidastext1"
+		"adidasfilm"
+		"adidasbild"
+		}
+
+			#adidasbild img {
+				width: 450px;
+			}
+
+			#adidastext2 {
+				visibility: hidden;
+			}
+		
+		.container5 {
+		text-align:center;
+		height: 100vh;
+		margin: 20% 5% 20% 5%;
+		grid-template-columns:1fr;
+		grid-template-rows:1fr 1fr 1fr 1fr;
+		grid-template-areas:
+		"aftext"
+		"afbild1"
+		"afbild3"
+		"afbild2";
+		}
+
+		#afbild1 #afbild2 #afbild3 #afbild4 img {
+			width:450px;
+		}
+
+
+		.container6 {
+        text-align:center;
+        height: 100vh;
+        margin: 250% 5% 2% 5%;
+        grid-template-columns:1fr;
+        grid-template-rows:1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "grammarlytext"
+		"grammarlybild1"
+		"grammarlyfilm"
+        "grammarlybild2";
+        }
+
+			#grammarlyfilm {
+				width:450px;
+			}
+
+			#grammarlybild1 img{
+				width:450px;
+			}
+
+			#grammarlybild2 img{
+				width:450px;
+			}
+ #cotext h5, #icatext h5, #frooshtext h5, #adidastext1 h5, #grammarlytext h5, #aftext h5 {
+		text-align: center;
+	}
+	}
+
+	@media only screen and (max-width:480px) {
+
+		:root{
+			width:100%;
+		  }
+		.container1 {
+		text-align:center;
+		height: 78vh;
+		margin: 0% 5% 0% 5%;
+		grid-template-columns:1fr;
+		grid-template-rows:1fr 1fr;
+		grid-template-areas:
+		"cotext"
+		"cobild";
+		}
+
+			#cobild img {
+				width:450px;
+			}
+
+		.container2 {
+		text-align:center;
+		height: 100vh;
+		margin: 5% 5% 0% 5%;
+		grid-template-columns:1fr;
+		grid-template-rows:1fr 1fr 1fr 1fr;
+		grid-template-areas:
+		"icatext"
+		"icabild"
+		"icafilm1"
+		"icafilm2";
+		}
+
+			#icafilm2, #icafilm1 {
+				width:450px;
+				height:252px;
+			}
+
+			#icabild img {
+				width:450px;
+			}
+
+		.container3 {
+		text-align:center;
+		height: 100vh;
+		margin: 100% 5% 0% 5%;
+		grid-template-columns:1fr;
+		grid-template-rows:1fr 1fr 1fr;
+		grid-template-areas:
+		"frooshtext"
+		"frooshbild1"
+		"frooshbild2";
+		}
+
+			#frooshbild1 img {
+				width:450px;
+			}
+			
+			#frooshbild2 img {
+				width:450px;
+			}
+					
+		.container4 {
+		text-align:center;
+		height: 100vh;
+		margin: 250% 5% 2% 5%;
+		grid-template-columns:1fr;
+		grid-template-rows:1fr 1fr 1fr;
+		grid-template-areas:
+		"adidastext1"
+		"adidasfilm"
+		"adidasbild"
+		}
+
+			#adidasbild img {
+				width: 450px;
+			}
+
+			#adidastext2 {
+				visibility: hidden;
+			}
+		
+		.container5 {
+		text-align:center;
+		height: 100vh;
+		margin: 40% 5% 20% 5%;
+		grid-template-columns:1fr;
+		grid-template-rows:1fr 1fr 1fr 1fr;
+		grid-template-areas:
+		"aftext"
+		"afbild1"
+		"afbild3"
+		"afbild2";
+		}
+
+		#afbild1 #afbild2 #afbild3 #afbild4 img {
+			width:450px;
+		}
+
+
+		.container6 {
+        text-align:center;
+        height: 100vh;
+        margin: 350% 5% 2% 5%;
+        grid-template-columns:1fr;
+        grid-template-rows:1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "grammarlytext"
+		"grammarlybild1"
+		"grammarlyfilm"
+        "grammarlybild2";
+        }
+
+			#grammarlyfilm {
+				width:450px;
+			}
+
+			#grammarlybild1 img{
+				width:450px;
+			}
+
+			#grammarlybild2 img{
+				width:450px;
+			}
+ #cotext h5, #icatext h5, #frooshtext h5, #adidastext1 h5, #grammarlytext h5, #aftext h5 {
+		text-align: center;
+	}
+	}
+
+  a {
+    text-decoration: none;
+    color:black;
+  }
+
+  h3 {
+      font-size: 20px;
+  }
+
+  h4 {
+	font-size: 15px;
+	font-weight: lighter;
+	font-style: italic;
+	text-decoration: none;
+	text-align:center;
+  }
+
+  h5 {
+      font-size: 15px;
+      font-weight: lighter;
+      font-style: italic;
+	  text-decoration: none;
+	  text-align:left;
+  }
+
+
+

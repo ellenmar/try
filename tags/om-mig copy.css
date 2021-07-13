@@ -1,0 +1,79 @@
+/*HÄR BÖRJAR SJÄLVA HEMSIDAN*/
+
+menu {
+    font-weight: lighter;
+	text-align: center;
+	line-height: 14px;
+	padding-bottom:100px;
+}
+
+.ellen {
+    text-decoration: none;
+}
+
+.ellen h1 {
+    color:lightgrey;
+    size: 30px;
+}
+
+.ellen h2 {
+    color: lightgrey;
+	size: 20px;
+}
+
+:root{
+	--main-radius:2px;
+	--main-padding:2px;
+  }
+	
+.container {
+	display:grid;
+	height:100vh;
+	grid-template-columns:1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	grid-template-areas:
+	  "pil1 bild1 content1";
+	grid-gap:0.5rem;
+	text-align:left;
+	margin:0% 20% 0% 20%;
+  }
+
+.container img{
+	width:150px;
+  }
+  
+  #content1 {
+	grid-area:content1;
+	border-radius:var(--main-radius);
+	padding-top:var(--main-padding);
+  }
+
+  #bild1 {
+	grid-area:bild1;
+	border-radius:var(--main-radius);
+	padding-top:var(--main-padding);
+  }
+  
+  @media only screen and (max-width:550px) {
+	.container {
+        text-align: center;
+	  grid-template-columns:1fr;
+	  grid-template-rows:1fr 1fr 1fr 1fr;
+      grid-template-areas:
+        "bild1"
+        "content1";
+	}
+	#pil1 {
+		visibility: hidden;
+    }
+  }
+  
+  a {
+    text-decoration: none;
+    color:black;
+  }
+
+  h3 {
+      font-size: 16px;
+      font-weight: normal;
+  }
