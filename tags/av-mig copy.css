@@ -558,8 +558,8 @@ menu {
 	.container7 {
 		display:grid;
 		height:90vh;
-		grid-template-columns:1fr 1fr;
-		grid-template-rows:1fr 1fr;
+		grid-template-columns:1fr;
+		grid-template-rows:1fr 1fr 1fr 1fr;
 		grid-template-areas:
 		  "okq8text"
 		  "mosad"
