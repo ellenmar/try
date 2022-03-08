@@ -550,16 +550,14 @@ menu {
 			#grammarlybild2 img{
 				width:450px;
 			}
- #cotext h5, #icatext h5, #frooshtext h5, #adidastext1 h5, #grammarlytext h5, #aftext h5, #okq8text, #HFtext {
-		text-align: center;
-	}
-	}
+ 
+	
 
 	.container7 {
 		display:grid;
 		height:90vh;
-		grid-template-columns:1fr;
-		grid-template-rows:1fr 1fr 1fr 1fr;
+		grid-template-columns:1fr 1fr;
+		grid-template-rows:1fr 1fr;
 		grid-template-areas:
 		  "okq8text"
 		  "mosad"
@@ -595,6 +593,12 @@ menu {
 		border-radius:var(--main-radius);
 		padding-top:var(--main-padding);
 	  }
+	}
+
+	  #cotext h5, #icatext h5, #frooshtext h5, #adidastext1 h5, #grammarlytext h5, #aftext h5, #okq8text, #HFtext {
+		text-align: center;
+	}
+
 
   a {
     text-decoration: none;
