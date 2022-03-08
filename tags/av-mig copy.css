@@ -33,7 +33,7 @@ menu {
 	grid-template-rows:1fr;
 	grid-template-areas:
 	  "HFtext HFfilm";
-	grid-gap:0.5rem;
+	grid-gap:1rem;
 	border-radius:var(--main-radius);
 	padding-top:var(--main-padding);
 	text-align:left;
