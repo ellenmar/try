@@ -556,13 +556,10 @@ menu {
 	.container7 {
 		display:grid;
 		height:90vh;
-		grid-template-columns:1fr 1fr;
-		grid-template-rows:1fr 1fr;
+		grid-template-columns:1fr 1fr 1fr 1fr;
+		grid-template-rows:1fr;
 		grid-template-areas:
-		  "okq8text"
-		  "mosad"
-		  "kaos"
-		  "katt";
+		  "okq8text mosad kaos katt";
 		grid-gap:0.5rem;
 		border-radius:var(--main-radius);
 		padding-top:var(--main-padding);
