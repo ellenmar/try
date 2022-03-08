@@ -25,7 +25,22 @@ menu {
 	--main-radius:2px;
 	--main-padding:2px;
   }
-	
+
+  .container {
+	display:grid;
+	height:90vh;
+	grid-template-columns:1fr 1fr;
+	grid-template-rows:1fr;
+	grid-template-areas:
+	  "HFtext HFfilm";
+	grid-gap:0.5rem;
+	border-radius:var(--main-radius);
+	padding-top:var(--main-padding);
+	text-align:left;
+	margin:10% 10% 0% 10%;
+  }
+
+
 .container1 {
 	display:grid;
 	height:72vh;
@@ -37,7 +52,7 @@ menu {
 	border-radius:var(--main-radius);
 	padding-top:var(--main-padding);
 	text-align:left;
-	margin:0% 10% 0% 10%;
+	margin:10% 10% 0% 10%;
   }
 
 	#cotext {
@@ -51,9 +66,9 @@ menu {
 		border-radius:var(--main-radius);
 		padding-top:var(--main-padding);
 	}
-
+	
 	#cobild img {
-		width:700px;
+		width:500px;
 	}
 
 .container2 {
@@ -539,6 +554,45 @@ menu {
 		text-align: center;
 	}
 	}
+
+	.container {
+		display:grid;
+		height:90vh;
+		grid-template-columns:1fr 1fr;
+		grid-template-rows:1fr 1fr;
+		grid-template-areas:
+		  "okq8text mosad"
+		  "kaos katt";
+		grid-gap:0.5rem;
+		border-radius:var(--main-radius);
+		padding-top:var(--main-padding);
+		text-align:left;
+		margin:10% 10% 0% 10%;
+	  }
+	
+	  #okq8text {
+		grid-area:okq8text;
+		border-radius:var(--main-radius);
+		padding-top:var(--main-padding);
+	  }
+	
+	  #mosad {
+		grid-area:mosad;
+		border-radius:var(--main-radius);
+		padding-top:var(--main-padding);
+	  }
+	
+	  #kaos {
+		grid-area:mosad;
+		border-radius:var(--main-radius);
+		padding-top:var(--main-padding);
+	  }
+	  
+	  #katt {
+		grid-area:katt;
+		border-radius:var(--main-radius);
+		padding-top:var(--main-padding);
+	  }
 
   a {
     text-decoration: none;
